@@ -3,3 +3,14 @@
 .img-size {
     width: 100px;
 }
+
+.icon {
+    color: gray;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gray;
+}
+
+.table>tbody {
+ vertical-align: middle;
+}
