@@ -22,3 +22,7 @@
     border-radius: 10px;
     text-decoration: none;
 }
+
+.bold {
+    font-weight: bold;
+}

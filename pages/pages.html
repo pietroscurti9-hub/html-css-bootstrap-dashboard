@@ -16,7 +16,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
-                <img src="../img/duck.png" alt="logo-duck" class="img-size">
+                <a href="../index.html"><img src="../img/duck.png" alt="logo-duck" class="img-size"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -61,7 +61,7 @@
 
                     <div class="col">
 
-                        <label for="exampleFormControlInput1" class="form-label">Nome autore</label>
+                        <label for="exampleFormControlInput1" class="form-label bold">Nome autore</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
                             placeholder="Inserisci il nome dell'autore" />
                     </div>
@@ -70,7 +70,7 @@
 
                     <div class="col">
 
-                        <label for="exampleFormControlInput1" class="form-label">Cognome autore</label>
+                        <label for="exampleFormControlInput1" class="form-label bold">Cognome autore</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
                             placeholder="Inserisci qui il cognome" />
                     </div>
@@ -85,7 +85,7 @@
             </div>
             
             <div>
-            <label for="exampleFormControlInput1" class="form-label">Titolo</label>
+            <label for="exampleFormControlInput1" class="form-label bold">Titolo</label>
             <input type="text" class="form-control" placeholder="Inserisci il titolo del libro" aria-label="Last name">
             <div class="text-body-secondary mt-2">Titolo versione italiana</div>
             </div>
@@ -98,7 +98,7 @@
             <div>
                 <div class="row">
                     <div class="col-lg-4">
-                        <strong>Genere</strong>
+                        <label for="exampleFormControlInput1" class="form-label bold">Genere</label>
                         <select id="inputState" class="form-select">
                             <option selected>Scegli il genere</option>
                             <option>...</option>
@@ -107,12 +107,13 @@
 
 
                     <div class="col-lg-4">
-                        <strong>Anno di pubblicazione</strong>
+                        <label for="exampleFormControlInput1" class="form-label bold">Anno di pubblicazione</label>
                         <input type="text" class="form-control" placeholder="Inserisci l'anno" aria-label="anno">
                     </div>
 
+                    
                     <div class="col-lg-4">
-                        <strong>ISBN&#35;</strong>
+                        <label for="exampleFormControlInput1" class="form-label bold">ISBN&#35;</label>
                         <input type="text" class="form-control" placeholder="Inserisci l'anno" aria-label="anno">
                     </div>
                 </div>
@@ -126,8 +127,8 @@
     </section>
 
     <section class="container">
-        <strong>Note</strong>
-        <div class="mt-4">
+        <label for="exampleFormControlInput1" class="form-label bold">Note</label>
+        <div class="mt-3">
 
             <div class="form-floating">
                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
