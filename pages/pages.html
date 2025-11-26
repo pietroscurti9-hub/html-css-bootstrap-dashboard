@@ -7,10 +7,112 @@
     <title>dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
 
 </head>
 
 <body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <img src="../img/duck.png" alt="logo-duck" class="img-size">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white-50" aria-current="page" href="#">Catalogo Libri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white-50" href="#"> Anagrafica utenti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white-50" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Storico prestiti
+                            </a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled text-white-50" aria-disabled="true">Help</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="py-4">
+                <h1>Nuovo libro</h1>
+            </div>
+
+
+            <div class="">
+                <div class="row">
+
+                    <div class="col">
+                        <strong>Nome autore</strong>
+                        <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore"
+                            aria-label="First name">
+                    </div>
+
+                    <div class="col">
+                        <strong>Cognome autore</strong>
+                        <input type="text" class="form-control" placeholder="Inserisci il cognome"
+                            aria-label="Last name">
+                    </div>
+                </div>
+            </div>
+
+            <strong>Titolo</strong>
+            <input type="text" class="form-control" placeholder="Inserisci il titolo del libro" aria-label="Last name">
+            <span class="text-body-secondary">Titolo versione italiana</span>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <label for="inputState" class="form-label">Genere</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Scegli il genere</option>
+                        <option>...</option>
+                    </select>
+                </div>
+
+                <div class="col-lg-4">
+                    <strong>Anno di pubblicazione</strong>
+                    <input type="text" class="form-control" placeholder="Inserisci l'anno"
+                        aria-label="anno">
+                </div>
+
+                <div class="col-lg-4">
+                    <strong>ISBN&#35;</strong>
+                    <input type="text" class="form-control" placeholder="Inserisci l'anno"
+                        aria-label="anno">
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+
 
 
 

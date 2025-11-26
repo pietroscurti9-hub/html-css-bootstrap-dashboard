@@ -14,3 +14,11 @@
 .table>tbody {
  vertical-align: middle;
 }
+
+.button {
+    padding: 10px 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
